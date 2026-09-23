@@ -1,0 +1,6 @@
+On 9/23 I created a new repository, so there will be no prior commits (will look like I uploaded alot all at once instead of updating in steps).
+
+This is because my original repoditory is a flaming pile of garbo, 
+  there is no rhyme or reason to the file organization and some of my files have gone into the same void socks end up in after going into the dryer. 
+
+I will be updating the project file names to include the original commit dates. 

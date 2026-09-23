@@ -1,0 +1,24 @@
+QDE:
+
+I plan to use an RC circuit as my one dimension Ordinary Differential Equation (ODE). The RC circuit consists of a charged capacitor that is discharging through a resistor, as current flows the capacitor loses charge. The rate at which the capacitor loses charge is dependent on the amount of charge left in the capacitor. The differential equation would be :  
+
+dQ/dt = - Q/RC
+Q(t) = Qo e-t/RC
+
+Physical behaviors to verify: 
+- The time constant τ = RC marks a fixed fraction of decay, regardless of Q₀. At t = RC, the charge should drop to exactly Q₀/e ≈ 36.8% of its starting value.
+- Half-life is independent of starting charge, this is the "constant half-life" property that all exponential decay processes share (another example would be radioactive decay half-life).
+Test what happens when the coefficients change, everything should scale together 
+
+
+Integral :
+
+I plan to use electric potential energy as my one dimension integral. The electric potential energy is the stored energy a charged particle has due to its position relative to other charged objects, as the distance between the charged objects approaches infinity the electric force between them approaches zero.  Using Coulomb's law (F = kq₁q₂/r² ) and the idea that work = force integrated over distance (W = ∫F dx) the final integral would be: 
+
+W =R (kq1q2)/r2 dr 
+ W=(kq1q2)/R
+
+Physical behaviors to verify:
+- Conservation of energy (work-energy theorem). If you release two charges from rest at separation R and let them fly apart (or together) to some separation R', the potential energy lost should exactly equal the kinetic energy gained.
+- Limiting case: R → ∞ gives zero energy. As the separation (R ) grows the energy should approach zero (this would be a limit not an exact value since we are going towards infinity).  
+- Symmetry: swapping the charges doesn't change the energy. It shouldn’t matter which charge is labeled q1 and which is q2. 

@@ -1,3 +1,5 @@
+Full Transparency I can't figure out how to get the LaTeX file to upload in a nice way to the repository (I tried but also uploaded it as a PDF)
+
 The code should run as long as you have access to the libraries it imports from in the beginning (numpy, scripy, matplotlib.pyplot, and seaborn). 
 Seaborn is pretty much just cosmetic for the graphs. 
 
